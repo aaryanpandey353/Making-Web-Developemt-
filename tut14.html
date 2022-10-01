@@ -1,0 +1,86 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        background-color: purple;
+        border: 3px solid white;
+        /* padding-top: 62px;
+    padding-bottom: 56px;
+    padding-left: 56px;
+    padding-right: 37px; */
+
+        /* Notes :- */
+        /*padding : top right bottom left;*/
+        padding:    62px  37px  56px  56px;
+
+        /* margin-top: 35px;
+        margin-bottom: 6px;
+        margin-right: 38px;
+        margin-left: 37px; */
+
+        /* Notes :- */
+        /*margin : top right bottom left;*/ 
+        margin: 35px 250px 6px 250px;
+        /* Notes: -  */
+        /* margin : x(top/bottom) x y(left/right) */
+        /* margin: 35px 38px; */
+
+        /* Notes: -  */
+        /* padding : x(top/bottom) x y(left/right) */
+        /* padding: 35px 38px; */
+
+
+        /* This style for the fonts */
+       
+        color: cyan;     
+    }
+
+    h3 , p{
+        font-family: 'Roboto', sans-serif;
+        margin-top: 16px;
+    /* padding: 12px; */
+    font-size: 19px;
+    }
+
+    body {
+        background-color: blueviolet;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur veritatis, delectus quisquam
+            impedit at necessitatibus consequuntur repellendus ab eaque pariatur inventore unde culpa natus minus
+            corrupti ipsam laborum vero libero!</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur veritatis, delectus
+            quisquam impedit at necessitatibus consequuntur repellendus ab eaque pariatur inventore unde culpa natus
+            minus corrupti ipsam laborum vero libero!</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="third">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur veritatis, delectus quisquam
+            impedit at necessitatibus consequuntur repellendus ab eaque pariatur inventore unde culpa natus minus
+            corrupti ipsam laborum vero libero!</p>
+    </div>
+
+</body>
+
+</html>
